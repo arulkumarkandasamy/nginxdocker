@@ -25,8 +25,8 @@ node () {
         env.DOCKER_IMAGE = "arulkumar1967/kubernetes:" + env.BUILD_NUMBER
         sh '''
             env
-            AWS_SECRET_ACCESS_KEY=eeq3pWMRLuggRVY8rQakdxjevGTey7sFHbKNon3U
-            AWS_ACCESS_KEY_ID=AKIAIOLL6QZMBXNWC7FQ
+            AWS_SECRET_ACCESS_KEY=
+            AWS_ACCESS_KEY_ID=
             AWS_DEFAULT_REGION=eu-east-1
             export AWS_SECRET_ACCESS_KEY AWS_ACCESS_KEY_ID AWS_DEFAULT_REGION
             echo "Building container"
